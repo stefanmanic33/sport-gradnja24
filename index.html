@@ -3,47 +3,84 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      SPORT-GRADNJA Pirot | sport-gradnja24 | Sportski tereni i travnate
-      površine
-    </title>
+    <title>Izgradnja i Održavanje Sportskih Terena | SPORT-GRADNJA Pirot</title>
     <meta
       name="description"
       content="SPORT-GRADNJA Pirot (sport-gradnja24) - izgradnja, rekonstrukcija, saniranje i održavanje sportskih terena i travnatih površina."
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://sport-gradnja24.com/" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:site_name"
-      content="SPORT-GRADNJA Pirot | sport-gradnja24"
+    <link rel="alternate" hreflang="sr" href="https://sport-gradnja24.com/" />
+    <link rel="alternate" hreflang="en" href="https://sport-gradnja24.com/" />
+    <link rel="alternate" hreflang="de" href="https://sport-gradnja24.com/" />
+    <link rel="alternate" hreflang="fr" href="https://sport-gradnja24.com/" />
+    <link rel="alternate" hreflang="bg" href="https://sport-gradnja24.com/" />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://sport-gradnja24.com/"
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SPORT-GRADNJA Pirot" />
     <meta
       property="og:title"
-      content="SPORT-GRADNJA Pirot | sport-gradnja24 | Sportski tereni i travnate površine"
+      content="Izgradnja i Održavanje Sportskih Terena | SPORT-GRADNJA Pirot"
     />
     <meta
       property="og:description"
-      content="SPORT-GRADNJA Pirot (sport-gradnja24) - izgradnja, rekonstrukcija, saniranje i održavanje sportskih terena i travnatih površina."
+      content="SPORT-GRADNJA Pirot – izgradnja, rekonstrukcija, saniranje i održavanje sportskih terena i travnatih površina. Kontakt: +381637761140"
     />
     <meta property="og:url" content="https://sport-gradnja24.com/" />
+    <meta
+      property="og:image"
+      content="https://sport-gradnja24.com/assets/02-secenjebusena.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="800" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://sport-gradnja24.com/assets/02-secenjebusena.jpg"
+    />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "SPORT-GRADNJA Pirot | sport-gradnja24",
+        "name": "SPORT-GRADNJA Pirot",
         "alternateName": "sport-gradnja24",
         "url": "https://sport-gradnja24.com/",
         "email": "dragan.zoraja@gmail.com",
         "telephone": "+381637761140",
+        "image": "https://sport-gradnja24.com/assets/02-secenjebusena.jpg",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Pirot",
+          "addressRegion": "Pirotski okrug",
           "addressCountry": "RS"
         },
-        "areaServed": "RS",
-        "description": "Izgradnja, rekonstrukcija, saniranje i održavanje sportskih terena i travnatih površina."
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 43.1578,
+          "longitude": 22.5983
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "08:00",
+            "closes": "17:00"
+          }
+        ],
+        "areaServed": { "@type": "Country", "name": "Serbia" },
+        "priceRange": "$$",
+        "description": "Izgradnja, rekonstrukcija, saniranje i održavanje sportskih terena i travnatih površina.",
+        "hasMap": "https://www.google.com/maps?q=SPORT-GRADNJA+Pirot+Srbija"
       }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,6 +90,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Analytics 4: zameni G-XXXXXXXXXX sa tvojim Measurement ID iz GA4 konzole -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
   </head>
   <body>
     <header class="site-header">
@@ -128,16 +173,25 @@
               class="hero-main"
               src="assets/02-secenjebusena.jpg"
               alt="Postavljanje travnatog busena na sportskom terenu"
+              width="800"
+              height="533"
+              fetchpriority="high"
             />
             <img
               class="floating-img one"
               src="assets/01-sekacbusena.jpg"
               alt="Mašina za sečenje busena"
+              width="400"
+              height="267"
+              fetchpriority="high"
             />
             <img
               class="floating-img two"
               src="assets/on-5.png"
               alt="Zalivanje fudbalskog terena"
+              width="400"
+              height="267"
+              fetchpriority="high"
             />
           </div>
         </div>
@@ -235,6 +289,9 @@
             <img
               src="assets/05-rolanjebusena.jpg"
               alt="Rolanje i priprema busena"
+              width="600"
+              height="400"
+              loading="lazy"
             />
             <div class="process-note">
               <strong data-i18n="noteTitle">Prirodna trava</strong
@@ -254,62 +311,131 @@
           </div>
           <div class="gallery-grid">
             <figure>
-              <img src="assets/01-sekacbusena.jpg" alt="Sekač busena" />
+              <img
+                src="assets/01-sekacbusena.jpg"
+                alt="Sekač busena"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal1">Mašina za sečenje busena</figcaption>
             </figure>
             <figure>
-              <img src="assets/02-secenjebusena.jpg" alt="Sečenje busena" />
+              <img
+                src="assets/02-secenjebusena.jpg"
+                alt="Sečenje busena"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal2">
                 Sečenje i priprema busena
               </figcaption>
             </figure>
             <figure>
-              <img src="assets/03-busenzautovar.jpg" alt="Busen za utovar" />
+              <img
+                src="assets/03-busenzautovar.jpg"
+                alt="Busen za utovar"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal3">
                 Busen pripremljen za utovar
               </figcaption>
             </figure>
             <figure>
-              <img src="assets/04-nasecenbusen.jpg" alt="Nasečen busen" />
+              <img
+                src="assets/04-nasecenbusen.jpg"
+                alt="Nasečen busen"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal4">Nasečen busen na terenu</figcaption>
             </figure>
             <figure>
-              <img src="assets/05-rolanjebusena.jpg" alt="Rolanje busena" />
+              <img
+                src="assets/05-rolanjebusena.jpg"
+                alt="Rolanje busena"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal5">Rolanje busena</figcaption>
             </figure>
             <figure>
-              <img src="assets/06-utovarbusena.jpg" alt="Utovar busena" />
+              <img
+                src="assets/06-utovarbusena.jpg"
+                alt="Utovar busena"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal6">Utovar i transport</figcaption>
             </figure>
             <figure>
               <img
                 src="assets/07-istovarbusenanateren.jpg"
                 alt="Istovar busena na teren"
+                width="800"
+                height="533"
+                loading="lazy"
               />
               <figcaption data-i18n="gal7">
                 Istovar busena na stadionu
               </figcaption>
             </figure>
             <figure>
-              <img src="assets/on-1.png" alt="Radovi na travnatoj površini" />
+              <img
+                src="assets/on-1.png"
+                alt="Radovi na travnatoj površini"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal8">
                 Priprema travnate površine
               </figcaption>
             </figure>
             <figure>
-              <img src="assets/on-3.png" alt="Oprema za travnati teren" />
+              <img
+                src="assets/on-3.png"
+                alt="Oprema za travnati teren"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal9">Specijalizovana oprema</figcaption>
             </figure>
             <figure>
-              <img src="assets/on-4.png" alt="Košenje terena" />
+              <img
+                src="assets/on-4.png"
+                alt="Košenje terena"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal10">Košenje i održavanje</figcaption>
             </figure>
             <figure>
-              <img src="assets/on-04.png" alt="Sanacija trave" />
+              <img
+                src="assets/on-04.png"
+                alt="Sanacija trave"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal11">Sanacija oštećenja</figcaption>
             </figure>
             <figure>
-              <img src="assets/on-5.png" alt="Zalivanje terena" />
+              <img
+                src="assets/on-5.png"
+                alt="Zalivanje terena"
+                width="800"
+                height="533"
+                loading="lazy"
+              />
               <figcaption data-i18n="gal12">Zalivanje terena</figcaption>
             </figure>
           </div>
