@@ -17,6 +17,7 @@ Modernizovan statički responsive sajt za SPORT-GRADNJA Pirot.
 ## Jezici
 
 U gornjem desnom uglu postoje prevodi za:
+
 - srpski
 - engleski
 - nemački
@@ -25,4 +26,4 @@ U gornjem desnom uglu postoje prevodi za:
 
 ## Napomena
 
-U kontakt sekciji sam ostavio placeholder za telefon: `+381 / unesite broj`. Kada dobiješ tačan broj, promeni ga u `index.html`.
+Kontakt podaci su sada ažurirani u `index.html` i na footeru.
